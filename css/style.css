@@ -1,0 +1,99 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+   font-family: "Oswald Regular";
+   src: url('../fonts/oswald.regular.ttf');
+}
+
+@font-face {
+   font-family: "Oswald Regular";
+   src: url('../fonts/oswald.regular.ttf');
+}
+
+.oswaldregular {
+   font-family: "Oswald Regular";
+}
+
+@font-face {
+   font-family: "Oswald Light";
+   src: url('../fonts/oswald.light.ttf');
+}
+
+.oswaldlight {
+   font-family: "Oswald Light";
+}
+
+@font-face {
+   font-family: "Oswald Bold";
+   src: url('../fonts/oswald.bold.ttf');
+}
+
+.oswaldbold {
+   font-family: "Oswald Bold";
+}
+
+.head-title {
+   margin: 40px;
+   text-transform: uppercase;
+}
+
+.navbar {
+    margin-bottom: 30px;
+    font-family: "Oswald Regular";
+    color: #424851;
+}
+
+.bg-light {
+    background-color: white !important;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+ }
+
+.navbar-light .navbar-nav .nav-link {
+    color: #424851;
+    transition: 0.5s;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2f92e9;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+a.nav-dropdown-link {
+   color: #424851;
+}
+
+li.nav-item-dropdown {
+    padding: 5px 10px 5px 10px;
+}
+
+li.nav-item-dropdown:hover {
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-dropdown-link:hover {
+    color: #2f92e9;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+ul.nav li:hover > ul.dropdown-menu {
+    display: block;
+    color: #2f92e9!important;
+}
+
+ul.dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover {
+    text-decoration: none;
+}
+
+.nav-item {
+   padding-right: 50px;
+}
