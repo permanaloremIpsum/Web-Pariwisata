@@ -40,6 +40,7 @@ body {
 }
 
 .navbar {
+   margin-top: 30px;
     margin-bottom: 30px;
     font-family: "Oswald Regular";
     color: #424851;
@@ -47,8 +48,8 @@ body {
 
 .bg-light {
     background-color: white !important;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
+    /*border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;*/
  }
 
 .navbar-light .navbar-nav .nav-link {
@@ -95,5 +96,50 @@ ul.dropdown-menu > li > a:hover, .dropdown-menu > .active > a:hover {
 }
 
 .nav-item {
-   padding-right: 50px;
+   padding: 0 25px 0 25px;
+}
+
+img.header-img {
+   padding: 10px;
+   border-radius: 63% 37% 50% 50% / 70% 68% 32% 30%;
+}
+
+img.header-img::after {
+   content: " ";
+   display: block;
+   background-color: #f2f3f3;
+   background: rgba(66,72,81,.1);
+   /*height: 29px;
+   width: 100%;*/
+   border-radius: 63% 37% 50% 50% / 70% 68% 32% 30%;
+   bottom: -60px;
+   transform: scale(1.25);
+   left: 40%;
+
+   position: absolute;
+   bottom: -29px;   
+}
+
+.header-title {
+   font-size: 4rem;
+   color: #424851;
+   font-family: "Oswald Bold";
+}
+
+.header-text {
+   margin-top: 20px;
+   font-size: 20px;
+   color: #424851;
+   font-family: "Oswald Light";
+}
+
+.header-btn {
+   color: #ffffff;
+   font-family: "Oswald Regular";
+}
+
+@media screen and (max-width: 576px) {
+   .header-title, .header-text, .header-btn {
+      text-align: center!important;
+   }
 }
