@@ -34,6 +34,10 @@ body {
    font-family: "Oswald Bold";
 }
 
+.space {
+   margin-top: 25px;
+}
+
 .head-title {
    margin: 40px;
    text-transform: uppercase;
@@ -117,7 +121,6 @@ img.header-img::after {
    left: 40%;
 
    position: absolute;
-   bottom: -29px;   
 }
 
 .header-title {
@@ -138,7 +141,98 @@ img.header-img::after {
    font-family: "Oswald Regular";
 }
 
-@media screen and (max-width: 576px) {
+span.count-corona {
+   display: block;
+   font-size: 30px;
+}
+
+span.text-corona {
+   font-family: "Oswald Light";
+   font-size: 16px;
+}
+
+img.img-icon {
+   float: right;
+}
+
+.section-title {
+   margin-top: 25px;
+   margin-bottom: 25px;
+}
+
+.section-title h1{
+   text-align: center;
+   font-size: 2rem;
+   font-family: "Oswald Bold";
+}
+
+.section-title h1::after{
+   content: "";
+   display: block;
+   background: #2f92e9;
+   width: 30px;
+   height: 5px;
+   border-radius: 5px;
+   margin-top: 10px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.card {
+   margin-bottom: 25px;
+   box-shadow: 3px 4px 7px 6px rgba(0, 0, 0, 0.12), 2px 4px 9px rgba(0, 0, 0, 0.24);
+}
+
+
+li.footer-item {
+   list-style: none;
+   font-family: 'Oswald Light';
+   text-transform: uppercase;
+   line-height: 2;
+}
+
+li.footer-socmed {
+   list-style: none;
+   font-family: 'Oswald Light';
+   text-transform: uppercase;
+   line-height: 2;
+}
+
+a.footer-link {
+   font-size: 14px;
+   transition: 0.5s;
+}
+
+a.footer-link:hover {
+   color: #424851;
+   text-decoration: none;
+   transition: 0.5s;
+}
+
+.icon-inner {
+   padding-top: 1px;
+}
+
+.footer {
+   background: #fafafa;
+    padding: 2.5rem 0;
+}
+
+h2 {
+   font-size: 16px;
+    font-family: 'Oswald Bold';
+    color: #333;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+}
+
+p.p-footer {
+   font-family: 'Oswald Light';
+   font-size: 16px;
+}
+
+/* Ukuran Layar*/
+@media screen and (max-width: 768px) {
    .header-title, .header-text, .header-btn {
       text-align: center!important;
    }
