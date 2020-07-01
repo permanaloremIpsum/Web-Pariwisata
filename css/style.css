@@ -237,3 +237,148 @@ p.p-footer {
       text-align: center!important;
    }
 }
+
+.container {
+   width: 90%;
+   margin: auto;
+   overflow: hidden;
+ }
+ 
+ #contact-sections p {
+   font-family: 'Oswald Light';
+   text-align: center;
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 2%;
+   color: #424851;
+   letter-spacing: 1px;
+ }
+ 
+ .first-grid i.fa {
+   font-size: 22px;
+   background-color: none;
+   border-radius: 80%;
+   margin: 2%;
+   cursor: pointer;
+   border: 2px solid #2f92e9;
+   color: #2f92e9;
+   text-align: center;
+   width: 45px;
+   height: 45px;
+   line-height: 45px;
+ }
+ 
+ .contact-form i.fa:hover {
+   font-family: 'Oswald Light';
+   cursor: pointer;
+   border: 2px solid #424851;
+   color: #424851;
+ }
+ 
+ .contact-form {
+   font-family: 'Oswald Light';
+   display: flex;
+   background-color: rgba(63, 62, 62, 0.082);
+   padding: 30px;
+ }
+ 
+ .first-grid {
+   line-height: 100px;
+ }
+ 
+ .form-info {
+   font-size: 16px;
+   color: #424851;
+   letter-spacing: 1px;
+ }
+ 
+ input {
+   padding: 10px;
+   /* margin: 10px; */
+   width: 90%;
+   background: rgba(136, 133, 133, 0.5);
+   color: white;
+   border: none;
+   outline: none;
+ }
+ 
+ input::placeholder {
+   color: white;
+ }
+ 
+ .message {
+   font-family: 'Oswald Light';
+   padding: 10px;
+   width: 90%;
+   background: rgba(136, 133, 133, 0.5);
+   color: white;
+   border: none;
+   outline: none;
+ }
+ 
+ .message::placeholder {
+   color: white;
+ }
+ 
+ textarea:hover {
+   background-color: rgba(49, 49, 49, 0.5);
+ 
+ }
+ 
+ input:hover {
+   background-color: rgba(49, 49, 49, 0.5);
+   ;
+ }
+ 
+ .btn-send {
+   padding: 10px;
+   font-size: 15px;
+   font-weight: bold;
+   letter-spacing: 1px;
+   margin-left: 8px;
+   color: white;
+   width: 80px;
+ }
+ 
+ .submit:hover {
+   border: 1px solid #ffffff;
+   color: #a7c5f3;
+   background-color: navy;
+   cursor: pointer;
+ }
+ 
+ /* Responsive */
+ @media (max-width: 992px) {
+ 
+   .contact-form {
+     flex-direction: column-reverse;
+     margin: 0 20px;
+   }
+ 
+   .btn-send {
+     float: right;
+     margin-right: 20px;
+   }
+ 
+   .first-grid {
+     /* text-align: center; */
+     line-height: 50px;
+     background-color: rgba(63, 62, 62, 0.082);
+     margin-top: 20px;
+     padding: 30px;
+     padding-left: auto;
+ 
+   }
+ 
+   .second-grid {
+     background-color: rgba(63, 62, 62, 0.082);
+     padding: 30px;
+ 
+   }
+ 
+   .contact-form {
+     background: none;
+   }
+ 
+ }
