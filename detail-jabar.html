@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -6,6 +7,7 @@
 	<title>Liburin Aja</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<script src="https://use.fontawesome.com/89b8dcd205.js"></script>
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 	<script src="js/script.js"></script>
@@ -55,110 +57,79 @@
 		</div>
 	</div>
 
-	<!-- Image -->
-	<div class="container">
-		<div class="row align-items-center">
-			<div class="col-md-6">
-				<img src="img/header1.jpg" class="header-img" alt="" style="width: 100%">
+
+<!-- Image slide -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+		<img src="img/kawah-putih.jpg" alt="">
+		 <div class="carousel-caption">
+		 	<h1 class="display-4">Kawah Putih Ciwidey</h1>
+		 	<h3>Wisata Bandung</h3>
+		 	<button type="button" class="btn btn-primary">Jawa Barat</button>
+		 </div>
+		</div>
+	</div>
+</div>
+
+
+<!-- Share -->
+<div class="container">
+	<div class="row pt-4">
+		<div class="col-12">
+			<p class="content display-5">Share :</p>
+		</div>
+		<div class="col-12 social">
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-whatsapp"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+		</div>
+	</div>
+</div>
+
+	<!-- Content -->
+	<div class="container space">
+		<div class="row">
+			<div class="col-md-8 col-sm-12">
+				<h1 class="title-single"><span id="lokasi">Kawah Putih</span> - <span id="daerah">Bandung</span></h1>
+				<p class="p-single">Kawah Putih yang sudah banyak dikenal orang akan keindahannya ini terletak di puncak gunung Patuha, Ciwidey, Bandung Selatan sehingga menawarkan udara sejuk dengan suhu 8 – 22 derajat. Dalam perjalanan menuju tempat wisata di Jawa Barat ini, Anda juga bisa menikmati perkebunan teh tua dengan suasana yang lain bila dibandingkan dengan perkebunan teh pada umumnya seperti yang ada di kawasan Lembang dan Puncak.</p>
+				<img src="img/kawah-putih.jpg" alt="" class="img-single">
+				<div class="text-center">
+					<em class="text-center">Kawah Putih</em>
+				</div>
+				<p class="p-single">Bersiaplah untuk terpukau dengan keindahan Kawah Putih yang begitu elok dan romantis. Hal ini disebabkan karena suasana unik di atas danau kawah yang dipenuhi kabut tebal serta warna air danau yang terlihat berwarna putih atau coklat susu. Bila cuaca sedang panas, warna air danau terkadang berubah menjadi warna biru kehijauan yang menawan.</p>
+				<p class="p-single">Selain untuk dinikmati keindahannya oleh para wisatawan, Kawah Putih Ciwidey juga sering kali menjadi tempat kegiatan lain, misalnya pengambilan gambar film, melukis, foto pengantin, sampai dengan kegiatan mendaki dan berkuda. Kawah Putih yang beralamat di Jalan Raya Soreang Ciwidey KM 25 berlokasi tidak jauh dari tempat wisata Situ Patenggang dan dapat dicapai dengan mudah bila Anda membawa kendaraan pribadi karena terdapat banyak penunjuk jalan. Dari Jakarta, Anda hanya perlu menggunakan jalur tol Cipularang dan keluar melalui pintu tol Kopo. Dari sana Anda harus menuju ke Soreang dan berkendara ke bagian selatan Ciwidey. Bila menggunakan kendaraan umum, Anda dapat naik angkot dari terminal Leuwi Panjang yang menuju ke terminal Ciwidey. Dari terminal Ciwidey, Anda dapat menggunakan angkot yang menuju Situ Patenggang dan turun di depan gerbang Kawah Putih.</p>
+
+				<h1 class="title-single">Harga Tiket</h1>
+				<p class="p-single">Harga tiket masuk Kawah Putih pada hari biasa dan hari libur serta akhir pekan adalah sama yaitu 15.000 Rupiah per orang.</p>
+
+				<h1 class="title-single">Jam Operasional</h1>
+				<p class="title-single">Tempat wisata ini buka setiap hari dari jam 7 pagi sampai dengan jam 5 sore.</p>
 			</div>
-			<div class="col-md-6">
-				<h1 class="header-title">Liburin Aja</h1>
-				<p class="header-text">Platform Wisata dan Komunitas dengan beragam destinasi, tips liburan, dan kuliner sepulau Jawa</p>
-				<div class="header-btn">
-					<button type="button" class="btn btn-primary">Mulai Menjelajah</button>
+
+			<!-- api review -->
+			<div class="review col-md-4 col-sm-12 text-white">
+				<h3 style="font-size: 30px;">Review From Tripadvisor</h3>
+				<div id="review-list">
+					
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<!-- Api Corona -->
+	<!-- Rekomendasi -->
 	<div class="container space">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="section-title text-center">
-					<h1>Data Covid-19 Indonesia</h1>
+					<h1>Rekomendasi Destinasi</h1>
 					<div class="line-title"></div>
 				</div>
 			</div>
-			<div class="col-md-3 col-sm-12">
-				<div class="card bg-danger text-white">
-				  <div class="card-body">
-				  	<div class="row align-items-center">
-				  		<div class="col-8">
-						    <span class="text-corona">Total Positif</span>
-						    <span id="positif" class="count-corona"></span>
-						    <span class="text-corona">Orang</span>
-					  	</div>
-					  	<div class="col-4">
-					  		<img src="img/sad.png" class="img-icon" alt="" width="80" height="80">
-					  	</div>
-				  	</div>
-				  </div>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-12">
-				<div class="card bg-success text-white">
-				  <div class="card-body">
-				  	<div class="row align-items-center">
-				  		<div class="col-8">
-						    <span class="text-corona">Total Sembuh</span>
-						    <span id="recovered" class="count-corona"></span>
-						    <span class="text-corona">Orang</span>
-					  	</div>
-					  	<div class="col-4">
-					  		<img src="img/happy.png" class="img-icon" alt="" width="80" height="80">
-					  	</div>
-				  	</div>
-				  </div>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-12">
-				<div class="card bg-dark text-white">
-				  <div class="card-body">
-				  	<div class="row align-items-center">
-				  		<div class="col-8">
-						    <span class="text-corona">Total Meninggal</span>
-						    <span id="dead" class="count-corona"></span>
-						    <span class="text-corona">Orang</span>
-					  	</div>
-					  	<div class="col-4">
-					  		<img src="img/worried.png" class="img-icon" alt="" width="80" height="80">
-					  	</div>
-				  	</div>
-				  </div>
-				</div>
-			</div>
-			<div class="col-md-3 col-sm-12">
-				<div class="card bg-info text-white">
-				  <div class="card-body">
-				  	<div class="row align-items-center">
-				  		<div class="col-8">
-						    <span class="text-corona">Total Dirawat</span>
-						    <span id="active" class="count-corona"></span>
-						    <span class="text-corona">Orang</span>
-					  	</div>
-					  	<div class="col-4">
-					  		<img src="img/care.png" class="img-icon" alt="" width="80" height="80">
-					  	</div>
-				  	</div>
-				  </div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<!-- Api Corona -->
-	<div class="container space">
-		<div class="row">
 			<div class="col-md-12">
-				<div class="section-title text-center">
-					<h1>Destinasi Populer</h1>
-					<div class="line-title"></div>
-				</div>
-			</div>
-			<div class="col-md-8">
 				<div class="row">
-					<div class="col-md-12 col-sm-12">
+					<div class="col-md-3 col-sm-12">
 						<div class="card">
 							<a href="#">
 						  		<img src="img/kawah-putih.jpg" class="card-img-top" alt="">
@@ -172,21 +143,21 @@
 						  	</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-12">
+					<div class="col-md-3 col-sm-12">
 						<div class="card">
 							<a href="#">
-						  		<img src="img/stone.jpg" alt="" class="card-img-top">
+						  		<img src="img/stone.jpg" class="card-img-top" alt="">
 					  		</a>
 						  	<div class="card-body">
 						  		<a href="">
 						    		<h5 class="card-title">Stone Garden - Padalarang</h5>
 						    	</a>
-						    		<p class="card-text">Stone Garden yang berlokasi di Gunung Masigit, Cipatat sangatlah eksotis dan cocok sebagai tempat mengambil foto pre-wedding sehingga mulai viral saat masuk ke media sosial Facebook. Sebelumya tidak banyak...</p>
+						    		<p class="card-text">Stone Garden yang berlokasi di Gunung Masigit, Cipatat sangatlah eksotis dan cocok sebagai tempat mengambil foto pre-wedding sehingga mulai viral saat masuk ke media sosial...</p>
 						    	<a href="#" class="btn btn-primary">Baca lebih lanjut...</a>
 						  	</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-sm-12">
+					<div class="col-md-3 col-sm-12">
 						<div class="card">
 							<a href="#">
 						  		<img src="img/green-canyon.jpg" class="card-img-top" alt="..." >
@@ -195,22 +166,23 @@
 						  		<a href="">
 						    		<h5 class="card-title">Green Canyon – Pangandaran</h5>
 						    	</a>
-						    		<p class="card-text">Green Canyon yang berlokasi di Desa Kertayasa, Pangandaran ini merupakan tempat wisata alam yang menyimpan beribu pesona, menyajikan keindahan dalam bentuk batu-batu stalaktik yang begitu menawan...</p>
+						    		<p class="card-text">Green Canyon yang berlokasi di Desa Kertayasa, Pangandaran ini merupakan tempat wisata alam yang menyimpan beribu pesona, menyajikan keindahan dalam...</p>
 						    	<a href="#" class="btn btn-primary">Baca lebih lanjut...</a>
 						  	</div>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="card bg-dark text-white">
-							<div class="text-center space-instagram">
-								<h3>Instagram @liburinajaa</h3>
-								<div class="row" id="media-ig" style="padding: 20px;"></div>
-								<a href="https://www.instagram.com/liburinajaa/" role="button" class="btn btn-outline-light" target="_blank">Follow</a>
-							</div>
+					<div class="col-md-3 col-sm-12">
+						<div class="card">
+							<a href="#">
+						  		<img src="img/green-canyon.jpg" class="card-img-top" alt="..." >
+					  		</a>
+						  	<div class="card-body">
+						  		<a href="">
+						    		<h5 class="card-title">Green Canyon – Pangandaran</h5>
+						    	</a>
+						    		<p class="card-text">Green Canyon yang berlokasi di Desa Kertayasa, Pangandaran ini merupakan tempat wisata alam yang menyimpan beribu pesona, menyajikan keindahan dalam...</p>
+						    	<a href="#" class="btn btn-primary">Baca lebih lanjut...</a>
+						  	</div>
 						</div>
 					</div>
 				</div>
@@ -231,10 +203,10 @@
 								<p class="content display-5">Share :</p>
 							</div>
 							<div class="col-12 social">
-								<a href="#"><i class="fa fa-facebook"></i></a>
-								<a href="#"><i class="fa fa-twitter"></i></a>
-								<a href="#"><i class="fa fa-whatsapp"></i></a>
-								<a href="#"><i class="fa fa-instagram"></i></a>
+								<a href="#"><i class="fab fa-facebook"></i></a>
+								<a href="#"><i class="fab fa-twitter"></i></a>
+								<a href="#"><i class="fab fa-whatsapp"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
 							</div>
 						</div>
 					</div>

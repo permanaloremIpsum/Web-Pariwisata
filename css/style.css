@@ -214,14 +214,14 @@ a.footer-link:hover {
 }
 
 .footer {
-   background: #fafafa;
+   background-color: rgb(66, 72, 81);
     padding: 2.5rem 0;
 }
 
 h2 {
    font-size: 16px;
     font-family: 'Oswald Bold';
-    color: #333;
+    color: #FFFFFF;
     margin-bottom: 14px;
     text-transform: uppercase;
 }
@@ -231,9 +231,304 @@ p.p-footer {
    font-size: 16px;
 }
 
+.btn-primary {
+  box-shadow: 4px 3px 11px 6px rgba(0, 0, 0, 0.12), 2px 4px 9px rgba(0, 0, 0, 0.24);
+}
+
+.space-instagram {
+  padding: 20px;
+}
+
+.breadcrumb {
+  padding: 0px;
+  background-color: #ffffff;
+}
+
+h1.title-single {
+  margin-bottom: 1em;
+}
+
+h2.sub-title-single {
+  font-size: 1.5rem;
+  font-family: 'Oswald Regular';
+  text-transform: initial;
+}
+
+p.p-single {
+  font-family: 'Oswald Light';
+  font-size: 1.10rem;
+  line-height: 1.8;
+  font-weight: 300;
+  margin-top: 30px;
+}
+
+img.img-single {
+  width: 100%;
+  height: auto;
+}
+
+ #contact-sections p {
+   font-family: 'Oswald Light';
+   text-align: center;
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 2%;
+   color: #424851;
+   letter-spacing: 1px;
+ }
+
+ .first-grid i.fa {
+   font-size: 22px;
+   background-color: none;
+   border-radius: 80%;
+   margin: 2%;
+   cursor: pointer;
+   border: 2px solid #2f92e9;
+   color: #2f92e9;
+   text-align: center;
+   width: 45px;
+   height: 45px;
+   line-height: 45px;
+ }
+
+ .contact-form i.fa:hover {
+   font-family: 'Oswald Light';
+   cursor: pointer;
+   border: 2px solid #424851;
+   color: #424851;
+ }
+
+ .contact-form {
+   font-family: 'Oswald Light';
+   display: flex;
+   background-color: rgba(63, 62, 62, 0.082);
+   padding: 30px;
+ }
+
+ .first-grid {
+   line-height: 100px;
+ }
+
+ .form-info {
+   font-size: 16px;
+   color: #424851;
+   letter-spacing: 1px;
+ }
+
+ input {
+   padding: 10px;
+   /* margin: 10px; */
+   width: 90%;
+   background: rgba(136, 133, 133, 0.5);
+   color: white;
+   border: none;
+   outline: none;
+ }
+
+ input::placeholder {
+   color: white;
+ }
+
+ .message {
+   font-family: 'Oswald Light';
+   padding: 10px;
+   width: 90%;
+   background: rgba(136, 133, 133, 0.5);
+   color: white;
+   border: none;
+   outline: none;
+ }
+
+ .message::placeholder {
+   color: white;
+ }
+
+ textarea:hover {
+   background-color: rgba(49, 49, 49, 0.5);
+
+ }
+
+ input:hover {
+   background-color: rgba(49, 49, 49, 0.5);
+   ;
+ }
+
+ .btn-send {
+   padding: 10px;
+   font-size: 15px;
+   font-weight: bold;
+   letter-spacing: 1px;
+   margin-left: 8px;
+   color: white;
+   width: 80px;
+ }
+
+ .submit:hover {
+   border: 1px solid #ffffff;
+   color: #a7c5f3;
+   background-color: navy;
+   cursor: pointer;
+ }
+
+ figure {
+  margin: 0;
+}
+
+/*Image bar*/
+
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(2px);
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carousel-caption h1 {
+  font-size: 400%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+
+
+.content {
+  margin-bottom: -10px;
+  color: #d5d5d5;
+}
+.social a {
+  font-size: 2em;
+  padding: .5rem;
+}
+.fa-facebook {
+  color: blue;
+}
+.fa-twitter {
+  color: #00aced;
+}
+.fa-whatsapp {
+  color: green;
+}
+.fa-instagram {
+  color: purple;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover ,
+.fa-whatsapp:hover ,
+.fa-instagram:hover {
+  color: #d5d5d5;
+}
+
+.review {
+  background-color: rgb(66, 72, 81);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.footer ul {
+  padding: 0px;
+}
+
+ /* Responsive */
+ @media (max-width: 992px) {
+   .social a {
+      font-size: 2em;
+      padding: .2rem;
+    }
+
+   .contact-form {
+     flex-direction: column-reverse;
+     margin: 0 20px;
+   }
+
+   .btn-send {
+     float: right;
+     margin-right: 20px;
+   }
+
+   .first-grid {
+     /* text-align: center; */
+     line-height: 50px;
+     background-color: rgba(63, 62, 62, 0.082);
+     margin-top: 20px;
+     padding: 30px;
+     padding-left: auto;
+
+   }
+
+   .second-grid {
+     background-color: rgba(63, 62, 62, 0.082);
+     padding: 30px;
+
+   }
+
+   .contact-form {
+     background: none;
+   }
+
+ }
+
 /* Ukuran Layar*/
 @media screen and (max-width: 768px) {
    .header-title, .header-text, .header-btn {
       text-align: center!important;
    }
+   .carousel-caption {
+      top: 45%;
+    }
+    .carousel-caption h1 {
+      font-size: 350%;
+    }
+    .carousel-caption h3 {
+      font-size: 140%;
+      font-weight: 400;
+      padding-bottom: .2rem;
+    }
+    .carousel-caption .btn {
+      font-size: 95%;
+      padding: 8px 14px;
+    }
+    .display-4 {
+      font-size: 200%;
+    }
+    .social a {
+      font-size: 2em;
+      padding: .2rem;
+    }
+}
+
+@media (max-width: 576px) {
+.carousel-caption {
+  top: 30%;
+}
+.carousel-caption h1 {
+  font-size: 250%;
+}
+.carousel-caption h3 {
+  font-size: 110%;
+}
+.carousel-caption .btn {
+  font-size: 85%;
+  padding: 4px 8px;
+}
+.carousel-indicators {
+  display: none;
+}
+.display-4 {
+  font-size: 160%;
+}
+.social a {
+  font-size: 2em;
+  padding: .2rem;
+} 
 }
